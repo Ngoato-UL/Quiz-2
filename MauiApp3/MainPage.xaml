@@ -1,0 +1,49 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="MauiApp3.MainPage"
+             Shell.NavBarIsVisible="False"
+             BackgroundColor="NavajoWhite">
+
+    <Grid Padding="20"
+          RowSpacing="10"
+          ColumnSpacing="10">
+
+        
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="*" />
+        </Grid.RowDefinitions>
+
+        
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="*" />
+        </Grid.ColumnDefinitions>
+
+        
+        <Label Text="1" Grid.Row="0" Grid.Column="0" BackgroundColor="White" HorizontalTextAlignment="Start" VerticalTextAlignment="Start"/>
+        <Label Text="2" Grid.Row="0" Grid.Column="1" BackgroundColor="Pink" HorizontalTextAlignment="Start" VerticalTextAlignment="Start"/>
+        <Label Text="3" Grid.Row="0" Grid.Column="2" BackgroundColor="Yellow" HorizontalTextAlignment="Start" VerticalTextAlignment="Start"/>
+
+
+        <Label Text="4" Grid.Row="1" Grid.Column="0" BackgroundColor="Green" HorizontalTextAlignment="Start" VerticalTextAlignment="Start"/>
+        <Label Text="5" Grid.Row="1" Grid.Column="1" BackgroundColor="Orange" HorizontalTextAlignment="Start" VerticalTextAlignment="Start"/>
+        <Label Text="6" Grid.Row="1" Grid.Column="2" BackgroundColor="WhiteSmoke" HorizontalTextAlignment="Center" VerticalTextAlignment="Start"/>
+
+      
+        <Label Text="7" Grid.Row="2" Grid.Column="0" BackgroundColor="SaddleBrown" HorizontalTextAlignment="Start" VerticalTextAlignment="Start"/>
+        <Label Text="8" Grid.Row="2" Grid.Column="1" BackgroundColor="Tomato" HorizontalTextAlignment="Start" VerticalTextAlignment="Start"/>
+        <Label Text="9" Grid.Row="2" Grid.Column="2" BackgroundColor="White" HorizontalTextAlignment="Start" VerticalTextAlignment="Start"/>
+
+       
+        
+        <Label Text="0" Grid.Row="3" Grid.Column="1" BackgroundColor="Yellow" HorizontalTextAlignment="Start" VerticalTextAlignment="Start"/>
+        
+
+    </Grid>
+
+</ContentPage>
